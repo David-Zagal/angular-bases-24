@@ -17,8 +17,7 @@ export class AddCharacterComponent {
 	};
 
 	emitCharacter (): void {
-		//debugger;
-		console.log (this.character);
+		// debugger;
 		if (this.character.name.length === 0) return;
 		if (this.character.power !== Math.max (this.character.power, 0)) return;
 
